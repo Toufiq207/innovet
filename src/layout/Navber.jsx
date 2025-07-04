@@ -7,7 +7,7 @@ import Flex from '../components/Flex'
 import Img from '../components/Img'
 import List from '../components/List'
 import Button from '../components/Button'
-import logo from '../assets/logo.png'
+import Logo from '../assets/logo.png'
 import { Link } from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
 import { RxCross2 } from 'react-icons/rx'
@@ -24,7 +24,7 @@ const Navber = () => {
             <Container>
                 <Flex className='items-center'>
                 <div className='w-3/12'>
-                <Link to='/'><Img src={logo} alt='logoimg'/></Link>
+                <Link to='/'><Img src={Logo} alt='logoimg'/></Link>
                 </div>
                 <div className='w-6/12'>
                 <ul className='flex gap-x-10 justify-center cursor-pointer'>
@@ -61,7 +61,7 @@ const Navber = () => {
 
         <nav className='bg-[#160c6d80] py-5 absolute  top-0 left-0 w-full md:hidden block px-4'>
           <Flex className='items-center justify-between'>
-            <div><Img className='w-[70%]'src={logo}/></div>
+            <div><Img className='w-[70%]'src={Logo}/></div>
             <div onClick={handleclick}>
               {
                 show? <RxCross2 className='text-white text-lg' />:<FaBars className='text-white text-sm' />

@@ -7,7 +7,7 @@ import Flex from '../components/Flex'
 import Img from '../components/Img'
 import List from '../components/List'
 import Button from '../components/Button'
-import Logo from '../assets/logo.png'
+import Logo from "../assets/logo.png"
 import { Link } from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
 import { RxCross2 } from 'react-icons/rx'

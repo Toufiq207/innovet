@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '../components/Container'
 import Flex from '../components/Flex'
 import Img from '../components/Img'
-import Logo from '../assets/logo.png'
+import Innovate from '../assets/innovate.png'
 import { Link } from 'react-router-dom'
 import Footerlist from '../components/Footerlist'
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
                 
             <div >
             
-            <Link to='/'> <Img src={Logo}/></Link>
+            <Link to='/'> <Img src={Innovate}/></Link>
            <p className='pt-[44px] text-lg text-[#fefefee6] font-nunito font-normal md:w-[449px]'>Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page.</p>
                 
             </div>
